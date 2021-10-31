@@ -1,0 +1,209 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+font-family: 'Open sans';*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #323e4f;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36pt;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+	background: url("../img/bckgrnd.png");
+}
+
+.wrapper{
+    max-width: 1280px;
+    margin: auto;
+    box-shadow: 5px 5px #344967;
+    background-color: #d8d8d8;
+    color: #323e4f;
+    min-width: 840px;
+}
+
+header{
+    display: flex;
+    background: linear-gradient(#323e4f 50%, #d8d8d8 50%);
+    align-items: center;
+    justify-content: center;
+    min-width: 840px;
+}
+
+
+.firstName{
+    color: #d8d8d8;
+}
+
+.lastName{
+    color: #323e4f;
+}
+
+.photo{
+    max-height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 30px solid #323e4f;
+}
+
+main{
+    display: flex;
+    min-width: 800px;
+}
+
+.leftMain{
+    flex: 50%;
+    padding: 20px;
+    min-width: 360px;
+}
+
+.rightMain{
+    flex: 50%;
+    padding: 20px;
+    min-width: 360px;
+}
+
+.contacts{
+    padding: 20px;
+}
+
+.contacts ul li{
+    padding: 0 0 0 30px;
+    list-style: none;
+}
+
+.contacts li:nth-child(1)
+{
+	background: url(../img/discord.png) 0 100%/contain no-repeat;
+}
+
+.contacts li:nth-child(2)
+{
+	background: url(../img/tg.png) 0 100%/contain no-repeat;
+}
+
+.contacts li:nth-child(3)
+{
+	background: url(../img/mail.png) 0 100%/contain no-repeat;
+}
+
+.contacts li:nth-child(4)
+{
+	background: url(../img/github.png) 0 100%/contain no-repeat;
+}
+
+.contacts li:nth-child(5)
+{
+	background: url(../img/skype.png) 0 100%/contain no-repeat;
+}
+
+.aboutMe{
+    text-align: justify;
+    padding: 20px;
+}
+
+.skills{
+    padding: 20px;
+}
+
+.skills ul li{
+    padding: 0 0 0 30px;
+    list-style: none;
+}
+
+.skills li:nth-child(1)
+{
+	background: url(../img/c.png) 0 100%/contain no-repeat;
+}
+
+.skills li:nth-child(2)
+{
+	background: url(../img/java.png) 0 100%/contain no-repeat;
+}
+
+.skills li:nth-child(3)
+{
+	background: url(../img/html.png) 0 100%/contain no-repeat;
+}
+
+.skills li:nth-child(4)
+{
+	background: url(../img/css.png) 0 100%/contain no-repeat;
+}
+
+.skills li:nth-child(5)
+{
+	background: url(../img/js.png) 0 100%/contain no-repeat;
+}
+
+.education{
+    padding: 20px;
+}
+
+.education p{
+    margin: 0 0 0 30px;
+}
+
+.english{
+    padding: 20px;
+}
+
+.codeExample{
+    padding: 20px;
+}
+
+.code{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #efe9e9;
+}
+
+.codeTub{
+    margin: 0 0 0 30px;
+}
+
+.otherProjects{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-items: center;
+    align-items: center;
+}
+
+.link{
+    display: grid;
+    justify-items: center;
+}
+
+.link img{
+    width: 20%;
+}
+
+
+footer{
+    display: flex;
+    min-width: 800px;
+    background: #323e4f;
+    align-items: center;
+    justify-content: center;
+    color: #d8d8d8;
+}
+
+footer img{
+    max-height: 150px;
+    margin: 0 20px 0 20px;
+}
