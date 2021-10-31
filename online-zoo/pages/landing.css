@@ -1,0 +1,235 @@
+.navigation .first {
+  color: #00a092;
+  cursor: default;
+}
+
+.navigation .second:hover{
+  color: #05786e;
+}
+
+.navigation .third:hover{
+  color: #05786e;
+}
+
+.navigation .fourth:hover{
+  color: #05786e;
+}
+
+.navigation .fifth:hover{
+  color: #05786e;
+}
+
+@media (min-width: 500px) {
+
+  main {
+    width: 100%;
+  }
+  
+  .watchAnimal {
+    height: 660px;
+    width: 1400px;
+    background: url("../assets/images/Background.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 130px calc((100% - 1920px) / 2 + 260px) 0 calc((100% - 1920px) / 2 + 260px);
+  }
+  
+  .watchAnimal h1 {
+    width: 890px;
+    margin: 0;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'mont-eb';
+    letter-spacing: 0.01em;
+    line-height: 90px;
+    color: #00A092;
+  }
+  
+  .watchAnimal h3 {
+    width: 430px;
+    font-size: 18px;
+    margin: 50px 0 50px 0;
+    font-family: 'mont-reg';
+  }
+
+  .watchAnimal button {
+    padding: 0;
+    height: 74px;
+    width: 240px;
+    background-color: #f58021;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+    font-family: 'mont-sb';
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+
+  .watchAnimal button:hover {
+    cursor: pointer;
+    background-color: #20113d;
+  }
+
+  .watchAnimal .btn-text {
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .welcome-to {
+    height: 1362px;
+    width: 100%;
+    margin-top: 150px;
+  }
+
+  .welcome-to .first {
+    height: 531px;
+    padding: 0px calc((100% - 1920px) / 2 + 260px) 150px calc((100% - 1920px) / 2 + 260px);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-1 .big {
+    width: 523px;
+    margin: 68px 77px 50px 0px;
+    font-size: 54px;
+    text-transform: uppercase;
+    font-family: 'mont-sb';
+    line-height: 65.83px;
+    color: #00A092;
+  }
+
+  .text-1 .small {
+    width: 560px;
+    font-size: 18px;
+    margin: 0 40px 68px 0;
+    font-family: 'mont-reg';
+  }
+
+  .welcome-to .second {
+    height: 531px;
+    padding: 0px calc((100% - 1920px) / 2 + 260px) 150px calc((100% - 1920px) / 2 + 260px);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-2 .big {
+    width: 462px;
+    margin: 113px 0px 50px 40px;
+    font-size: 54px;
+    text-transform: uppercase;
+    font-family: 'mont-sb';
+    line-height: 65.83px;
+    color: #00A092;
+  }
+
+  .text-2 .small {
+    width: 560px;
+    font-size: 18px;
+    margin: 0 0 113px 40px;
+    font-family: 'mont-reg';
+  }
+
+  .meet-some-pets {
+    padding: 0px calc((100% - 1920px) / 2 - 222px) 150px calc((100% - 1920px) / 2 + 260px);
+  }
+  
+  .meet-some-pets .info {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 136px 0 0 0;
+  }
+
+  .meet-some-pets .info__title {
+    font-family: 'mont-reg';
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+    color: #00A092;
+    margin: 0 0 50px 0;
+  }
+
+  .meet-some-pets .info__text {
+    font-family: 'mont-reg';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33,8px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+  }
+
+  .slider .slider__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 185px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slider-btn {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #20113D;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+  }
+
+  .slider-btn + .slider-btn {
+    margin-left: 55px;
+  }
+
+  .slider-btn:hover {
+    background-color: #20113D;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  .slider-btn:hover .slider-btn-svg #left,
+  .slider-btn:hover .slider-btn-svg #right{
+    fill: white;
+    transition: 0.4s;
+  }
+
+  .meet-some-pets__animals-main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .meet-some-pets__animals-vertical {
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .meet-some-pets__animals-block {
+    height: 747px;
+    width: 440px;
+    min-width: 440px;
+    border-radius: 5px;
+    background-color: #20113D;
+    transition: 0.4s;
+  }
+
+  .meet-some-pets__animals-main > .meet-some-pets__animals-vertical:first-child{
+    margin: 0 0 40px 0;
+  }
+
+  .meet-some-pets__animals-vertical > .meet-some-pets__animals-block:not(:first-child){
+    margin: 0 0 0 40px;
+  }
+
+  .meet-some-pets__animals-block:hover {
+    transform: scaleX(calc(1 + ((100 / 440) * 20) / 100)) scaleY(calc(1 + ((100 / 747) * 20) / 100));
+  }
+}

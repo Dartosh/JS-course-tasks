@@ -1,0 +1,348 @@
+.navigation .first:hover {
+  color: #05786e;
+}
+
+.navigation .second:hover{
+  color: #05786e;
+}
+
+.navigation .third{
+  
+  color: #00a092;
+  cursor: default;
+}
+
+.navigation .fourth:hover{
+  color: #05786e;
+}
+
+.navigation .fifth:hover{
+  color: #05786e;
+}
+
+@media (min-width: 500px) {
+
+  main {
+    width: 100%;
+  }
+  
+  .cams {
+    height: 1500px;
+    padding: 54px calc((100% - 1920px) / 2 + 260px) 0 calc((100% - 1920px) / 2 + 40px);
+  }
+
+  .cams h1 {
+    height: 74px;
+    margin: 0px;
+    font-family: 'mont-reg';
+    text-transform: uppercase;
+    font-size: 54px;
+    line-height: 66px;
+    text-align: center;
+    color: #00A092;
+  }
+
+  .view {
+    position:relative;
+    z-index: 0;
+    width: 1400;
+    margin-left: 220px;
+    top: -74px;
+  }
+
+  .cams button {
+    padding: 0;
+    height: 74px;
+    width: 240px;
+    background-color: #f58021;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+    font-family: 'mont-sb';
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.5s;
+    margin-left: calc(100% - 240px);
+  }
+
+  .cams button:hover {
+    cursor: pointer;
+    background-color: #20113d;
+  }
+
+  .cams .btn-text {
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .titleblock {
+    height: 74px;
+  }
+
+  .preview {
+    margin: 50px 0 0 0;
+    width: 100%;
+  }
+
+  .more-views {
+    margin: 100px 0 0 0;
+  }
+
+  .more-views h2 {
+    font-family: 'mont-md';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+  }
+
+  .slider {
+    margin: 30px 27px 0 147px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .slider .first {
+    width: 320px;
+    height: 209px;
+    transition-duration: .2s;
+  }
+
+  .slider .second {
+    width: 320px;
+    height: 209px;
+    transition-duration: .2s;
+  }
+
+  .slider .third {
+    width: 320px;
+    height: 209px;
+    transition-duration: .2s;
+  }
+
+  .did-you-know {
+    padding: 150px calc((100% - 1920px) / 2 + 260px) 150px calc((100% - 1920px) / 2 + 260px);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .facts {
+    width: 920px;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 46px 60px 50px 60px;
+  }
+
+  .did-you-know h3 {
+    margin: 0;
+    font-family: 'mont-md';
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    color: #00A092;
+  }
+
+  .did-you-know p {
+    margin: 20px 0 0 0;
+    width: 100%;
+    font-family: 'mont-md';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+  }
+
+  .animal-info {
+    margin: 148px 240px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .infotoper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .photo {
+    margin: 0 0 0 120px;
+  } 
+  .photo img {
+    border-radius: 5px;
+    height: 440px;
+  }
+
+  .info {
+    margin: 50px 0 0 0;
+    font-family: 'mont-reg';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+  }
+
+  .common-info {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .common-info-line {
+    margin: 0 0 18px 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .common-info-line div {
+    
+    margin: 0 20px 0 0;
+    font-family: 'mont-reg';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    
+  }
+
+  .common-info-line h4 {
+    margin: 0;
+    font-family: 'mont-md';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 130%;
+  }
+
+  .common-info-line span {
+    vertical-align: sub;
+  }
+
+  .map button span {
+    color: #F58021;
+    font-family: 'mont-sb';
+    font-weight: 600;
+    font-size: 20.273px;
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+
+  .map button {
+    height: 100%;
+    margin: 0 0 0 64px;
+    border: 0;
+    padding: 0 10px 0 10px;
+    background: none;
+    border-radius: 5px;
+  }
+
+  .map button img {
+    height: 25px;
+    margin: 0 0 -9px 0;
+  }
+
+  
+
+  .map button:hover {
+    cursor: pointer;
+    background-color: #20113d;
+  }
+
+  .live-wrapper {
+    position: absolute;
+    width: 10px;
+    height: 3340px;
+    z-index: 1;
+  }
+
+  .live {
+    position: sticky;
+    width: 120px;
+    height: 38px;
+    cursor: pointer;
+    top: 0;
+    background: url(../assets/images/aside_livecam.png);
+    background-color: #f58021;
+    border-radius: 0 0 5px 0;
+  }
+
+  .sidebar-main {
+    position: absolute;
+    height: 3340px;
+  }
+
+  .sidebar {
+    width: 220px;
+    padding-top: 38px;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    background: #20113D;
+    top: 0px;
+    margin-right: 0;
+  }
+
+  .animal-btn {
+    width: 100%;
+    height: 171px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .animal-btn a {
+    z-index: 3;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .animal-ico {
+    width: 104px;
+    height: 104px;
+    background: #F58021;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .animal-ico-curr {
+    width: 104px;
+    height: 104px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .animal-ico-active {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

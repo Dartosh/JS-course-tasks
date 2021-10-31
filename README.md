@@ -1,2 +1,2 @@
-# JS-course-tasks
-Repository with RS-School tasks
+# dartosh-JSFE2021Q1
+Private repository for @dartosh

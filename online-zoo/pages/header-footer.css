@@ -1,0 +1,1452 @@
+/*Насыщенность: 400*/
+@font-face {
+	font-family: 'mont-reg';
+	src: url("../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+/*Насыщенность: 500*/
+@font-face {
+	font-family: 'mont-md';
+	src: url("../assets/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+/*Насыщенность: 600*/
+@font-face {
+	font-family: 'mont-sb';
+	src: url("../assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+/*Насыщенность: 800*/
+@font-face {
+	font-family: 'mont-eb';
+	src: url("../assets/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+}
+
+.menu-btn {
+  width: 30px;
+  height: 30px;
+  margin: 40px calc((100% - 640px) / 2 + 47px) 40px 0px;
+  background-image: url("../assets/images/menu.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: none;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.menu-btn:hover {
+  transform: scale(0.9);
+}
+
+@media (max-width: 8000px) {
+
+  body {
+    margin: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 110px;
+    background-color: #f58021;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header .logo {
+    width: 96px;
+    margin: 30px 503px 30px calc((100% - 1920px) / 2 + 260px);
+    background-image: url("../assets/images/logo.png");
+  }
+  
+  .navigation {
+    width: 556px;
+    height: 27px;
+    margin: 42px 65px 41px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'mont-sb';
+    font-size: 18px;
+    line-height: 27px;
+    transition-duration: 0.5s;
+  }
+  
+  .socials {
+    width: 180px;
+    margin: 35px calc((100% - 1920px) / 2 + 260px) 33px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .socials a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+  }
+  
+  .socials .first {
+    background-color: #f00;
+    background-image: url("../assets/images/yt.png");
+  }
+  
+  .socials .first:hover {
+    background-color: rgb(131, 8, 8);
+  }
+  
+  .socials .second {
+    background-color: #c13584;
+    background-image: url("../assets/images/inst.png");
+  }
+  
+  .socials .second:hover {
+    background-color: #861f59;
+  }
+  
+  .socials .third {
+    background-color: #3b5998;
+    background-image: url("../assets/images/fb.png");
+  }
+  
+  .socials .third:hover {
+    background-color: #233968;
+  }
+  
+  footer {
+    width: 100%;
+    height: 329px;
+    background-color: #20113d;
+  }
+
+  .first-line {
+    width: 1400px;
+    height: 214px;
+    margin: 0 calc((100% - 1920px) / 2 + 260px) 0 calc((100% - 1920px) / 2 + 260px);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first-line .logos {
+    width: 414px;
+    padding: 82px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logos .logo {
+    width: 96px;
+    height: 50px;
+    margin: 0;
+    background-image: url("../assets/images/logo-white.png");
+  }
+
+  .logos .first {
+    width: 50px;
+  }
+
+  .logos .second {
+    width: 138px;
+  }
+
+  .footer-nav {
+    width: 426px;
+    height: 27px;
+    margin: 91px 101px 96px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'mont-sb';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    transition-duration: 0.5s;
+  }
+
+  .footer-nav a:hover {
+    color: #05786e;
+  }
+
+  .donate-footer {
+    width: 359px;
+    margin: 70px 0px 70px 0px;
+  }
+
+  .donate-footer button {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #20113d;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none; 
+    font-family: 'mont-sb';
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+  
+  .donate-footer button:hover {
+    cursor: pointer;
+    background-color: #f58021;
+    border-color: #f58021;
+  }
+
+  .donate-footer .btn-text {
+    margin: 0 33.86px 0 33.86px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+  }
+
+  .footer-line {
+    width: 1400px;
+    height: 1px;
+    margin: 0 calc((100% - 1920px) / 2 + 260px) 0 calc((100% - 1920px) / 2 + 260px);
+    background-color: #fff;
+  }
+
+  .second-line {
+    width: 1400px;
+    height: 115px;
+    margin: 0 calc((100% - 1920px) / 2 + 260px) 0 calc((100% - 1920px) / 2 + 260px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    width: 448px;
+    height: 27px;
+    padding: 44px 752px 0px 0px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .footer-socials {
+    width: 200px;
+    padding-top: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-socials a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+  }
+  
+  .footer-socials .first {
+    background-color: #f00;
+    background-image: url("../assets/images/yt.png");
+  }
+  
+  .footer-socials .first:hover {
+    background-color: rgb(131, 8, 8);
+  }
+  
+  .footer-socials .second {
+    background-color: #c13584;
+    background-image: url("../assets/images/inst.png");
+  }
+  
+  .footer-socials .second:hover {
+    background-color: #861f59;
+  }
+  
+  .footer-socials .third {
+    background-color: #3b5998;
+    background-image: url("../assets/images/fb.png");
+  }
+  
+  .footer-socials .third:hover {
+    background-color: #233968;
+  }
+
+  .donation-panel {
+    height: 221px;
+    padding: 0px calc((100% - 1920px) / 2 + 260px) 0px calc((100% - 1920px) / 2 + 260px);
+    background-color: #20113d;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-donation .big {
+    width: 889px;
+    margin: 50px 191px 20px 0px;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: 'mont-md';
+    line-height: 51.2px;
+    color: #fff;
+  }
+
+  .text-donation .small {
+    width: 609px;
+    font-size: 18px;
+    margin: 0 470px 0 0;
+    color: #fff;
+    font-family: 'mont-reg';
+  }
+
+  .third .donate {
+    width: 320px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .donate .text {
+    margin: 52px 0 10px 0;
+    height: 34px;
+    font-family: 'mont-md';
+    font-size: 26px;
+    line-height: 34px;
+    color: #fff;
+  }
+
+  .donate .dollars {
+    width: 318px;
+    height: 74px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .donate .amount {
+    width: 239px;
+    border-radius: 5px;
+    border: none;
+    background-color: #20113d;
+    text-align: center;
+    color: #fff;
+    font-family: 'mont-sb';
+    font-size: 18px;
+  }
+
+  .amount::placeholder {
+    color: #fff;
+  }
+
+  .donate .amount-sub {
+    width: 81px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f58021;
+    background-image: url(../assets/images/arr.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition-duration: 0.5s;
+  }
+
+  .donate .amount-sub:hover {
+    cursor: pointer;
+    background-color: #D26004;
+  }
+}
+
+@media (max-width: 1919px) {
+
+  body {
+    margin: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 110px;
+    background-color: #f58021;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header .logo {
+    width: 96px;
+    margin: 30px 163px 30px calc((100% - 1200px) / 2 + 100px);
+    background-image: url("../assets/images/logo.png");
+  }
+  
+  .navigation {
+    width: 481px;
+    height: 27px;
+    margin: 42px 80px 41px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'mont-sb';
+    font-size: 18px;
+    line-height: 27px;
+    transition-duration: 0.5s;
+  }
+  
+  .socials {
+    width: 180px;
+    margin: 35px calc((100% - 1200px) / 2 + 100px) 33px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .socials a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+  }
+  
+  .socials .first {
+    background-color: #f00;
+    background-image: url("../assets/images/yt.png");
+  }
+  
+  .socials .first:hover {
+    background-color: rgb(131, 8, 8);
+  }
+  
+  .socials .second {
+    background-color: #c13584;
+    background-image: url("../assets/images/inst.png");
+  }
+  
+  .socials .second:hover {
+    background-color: #861f59;
+  }
+  
+  .socials .third {
+    background-color: #3b5998;
+    background-image: url("../assets/images/fb.png");
+  }
+  
+  .socials .third:hover {
+    background-color: #233968;
+  }
+  
+  footer {
+    width: 100%;
+    height: 329px;
+    background-color: #20113d;
+  }
+
+  .first-line {
+    width: 1120px;
+    height: 214px;
+    margin: 0 calc((100% - 1200px) / 2 + 40px) 0 calc((100% - 1200px) / 2 + 40px);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first-line .logos {
+    width: 344px;
+    padding: 82px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logos .logo {
+    width: 96px;
+    height: 50px;
+    margin: 0;
+    background-image: url("../assets/images/logo-white.png");
+  }
+
+  .logos .first {
+    width: 50px;
+  }
+
+  .logos .second {
+    width: 138px;
+  }
+
+  .footer-nav {
+    width: 347px;
+    height: 22px;
+    margin: 96px 35px 96px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'mont-sb';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    transition-duration: 0.5s;
+  }
+
+  .footer-nav a:hover {
+    color: #05786e;
+  }
+
+  .donate-footer {
+    width: 359px;
+    margin: 70px 0px 70px 0px;
+  }
+
+  .donate-footer button {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #20113d;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none; 
+    font-family: 'mont-sb';
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+  
+  .donate-footer button:hover {
+    cursor: pointer;
+    background-color: #f58021;
+    border-color: #f58021;
+  }
+
+  .donate-footer .btn-text {
+    margin: 0 33.86px 0 33.86px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+  }
+
+  .footer-line {
+    width: 1200px;
+    height: 1px;
+    margin: 0 calc((100% - 1200px) / 2) 0 calc((100% - 1200px) / 2);
+    background-color: #fff;
+  }
+
+  .second-line {
+    width: 1120px;
+    height: 115px;
+    margin: 0 calc((100% - 1200px) / 2 + 40px) 0 calc((100% - 1200px) / 2 + 40px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    width: 448px;
+    height: 27px;
+    padding: 44px 472px 0px 0px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .footer-socials {
+    width: 200px;
+    padding-top: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-socials a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+  }
+  
+  .footer-socials .first {
+    background-color: #f00;
+    background-image: url("../assets/images/yt.png");
+  }
+  
+  .footer-socials .first:hover {
+    background-color: rgb(131, 8, 8);
+  }
+  
+  .footer-socials .second {
+    background-color: #c13584;
+    background-image: url("../assets/images/inst.png");
+  }
+  
+  .footer-socials .second:hover {
+    background-color: #861f59;
+  }
+  
+  .footer-socials .third {
+    background-color: #3b5998;
+    background-image: url("../assets/images/fb.png");
+  }
+  
+  .footer-socials .third:hover {
+    background-color: #233968;
+  }
+
+  .donation-panel {
+    height: 313px;
+    padding: 0px calc((100% - 1200px) / 2 + 100px) 0px calc((100% - 1200px) / 2 + 100px);
+    background-color: #20113d;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-donation .big {
+    width: 577px;
+    margin: 50px 103px 30px 0px;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: 'mont-md';
+    line-height: 51.2px;
+    color: #fff;
+  }
+
+  .text-donation .small {
+    width: 577px;
+    font-size: 18px;
+    margin: 0 104px 0 0;
+    color: #fff;
+    font-family: 'mont-reg';
+  }
+
+  .third .donate {
+    width: 320px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .donate .text {
+    margin: 52px 0 10px 0;
+    height: 34px;
+    font-family: 'mont-md';
+    font-size: 26px;
+    line-height: 34px;
+    color: #fff;
+  }
+
+  .donate .dollars {
+    width: 318px;
+    height: 74px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .donate .amount {
+    width: 239px;
+    border-radius: 5px;
+    border: none;
+    background-color: #20113d;
+    text-align: center;
+    color: #fff;
+    font-family: 'mont-sb';
+    font-size: 18px;
+  }
+
+  .amount::placeholder {
+    color: #fff;
+  }
+
+  .donate .amount-sub {
+    width: 81px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f58021;
+    background-image: url(../assets/images/arr.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition-duration: 0.5s;
+  }
+
+  .donate .amount-sub:hover {
+    cursor: pointer;
+    background-color: #D26004;
+  }
+}
+
+@media (max-width: 1199px) {
+
+  body {
+    margin: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 110px;
+    background-color: #f58021;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header .logo {
+    width: 96px;
+    margin: 30px 447px 30px calc((100% - 640px) / 2 + 20px);
+    background-image: url(../assets/images/logo.png);
+  }
+  
+  .navigation {
+    width: 556px;
+    height: 27px;
+    margin: 42px 65px 41px 0px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'mont-sb';
+    font-size: 18px;
+    line-height: 27px;
+    transition-duration: 0.5s;
+  }
+  
+  .socials {
+    width: 180px;
+    margin: 35px calc((100% - 1920px) / 2 + 260px) 33px 0px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .socials a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+  }
+  
+  .socials .first {
+    background-color: #f00;
+    background-image: url("../assets/images/yt.png");
+  }
+  
+  .socials .first:hover {
+    background-color: rgb(131, 8, 8);
+  }
+  
+  .socials .second {
+    background-color: #c13584;
+    background-image: url("../assets/images/inst.png");
+  }
+  
+  .socials .second:hover {
+    background-color: #861f59;
+  }
+  
+  .socials .third {
+    background-color: #3b5998;
+    background-image: url("../assets/images/fb.png");
+  }
+  
+  .socials .third:hover {
+    background-color: #233968;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    right: calc((100% - 640px) / 2);
+    width: 311px;
+    height: 500px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #20113D;
+  }
+
+  main .navigation {
+    margin: 0;
+  }
+
+  .navigation a {
+    color: #fff;
+    margin: 25px 0 25px 0;
+  }
+  
+  footer {
+    width: 100%;
+    height: 545px;
+    background-color: #20113d;
+  }
+
+  .first-line {
+    width: 440px;
+    height: 346px;
+    margin: 0 calc((100% - 640px) / 2 + 100px) 0 calc((100% - 640px) / 2 + 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-line .logos {
+    width: 445px;
+    padding: 49px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logos .logo {
+    width: 96px;
+    height: 50px;
+    margin: 0;
+    background-image: url("../assets/images/logo-white.png");
+  }
+
+  .logos .first {
+    width: 50px;
+  }
+
+  .logos .second {
+    width: 138px;
+  }
+
+  .footer-nav {
+    width: 445px;
+    height: 22px;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'mont-sb';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    transition-duration: 0.5s;
+  }
+
+  .footer-nav a:hover {
+    color: #05786e;
+  }
+
+  .donate-footer {
+    width: 359px;
+    height: 74px;
+    margin: 50px 0px 50px 0px;
+  }
+
+  .donate-footer button {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #20113d;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none; 
+    font-family: 'mont-sb';
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+  
+  .donate-footer button:hover {
+    cursor: pointer;
+    background-color: #f58021;
+    border-color: #f58021;
+  }
+
+  .donate-footer .btn-text {
+    margin: 0 33.86px 0 33.86px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+  }
+
+  .footer-line {
+    width: 640px;
+    height: 1px;
+    margin: 0 calc((100% - 640px) / 2) 0 calc((100% - 640px) / 2);
+    background-color: #fff;
+  }
+
+  .second-line {
+    width: 448px;
+    height: 199px;
+    margin: 0 calc((100% - 640px) / 2 + 96px) 0 calc((100% - 640px) / 2 + 96px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .copyright {
+    width: 448px;
+    height: 27px;
+    padding: 30px 0px 0px 0px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .footer-socials {
+    width: 220px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-socials a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+  }
+  
+  .footer-socials .first {
+    background-color: #f00;
+    background-image: url("../assets/images/yt.png");
+  }
+  
+  .footer-socials .first:hover {
+    background-color: rgb(131, 8, 8);
+  }
+  
+  .footer-socials .second {
+    background-color: #c13584;
+    background-image: url("../assets/images/inst.png");
+  }
+  
+  .footer-socials .second:hover {
+    background-color: #861f59;
+  }
+  
+  .footer-socials .third {
+    background-color: #3b5998;
+    background-image: url("../assets/images/fb.png");
+  }
+  
+  .footer-socials .third:hover {
+    background-color: #233968;
+  }
+
+  .donation-panel {
+    height: 459px;
+    padding: 0px calc((100% - 640px) / 2 + 20px) 0px calc((100% - 640px) / 2 + 20px);
+    background-color: #20113d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-donation .big {
+    width: 565px;
+    margin: 50px 38px 30px 37px;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: 'mont-md';
+    line-height: 51.2px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .text-donation .small {
+    width: 600px;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 20px 0 20px;
+    color: #fff;
+    font-family: 'mont-reg';
+    text-align: center;
+  }
+
+  .third .donate {
+    width: 363px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .donate .text {
+    margin: 30px 0 10px 0;
+    height: 34px;
+    font-family: 'mont-md';
+    font-size: 26px;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .donate .dollars {
+    width: 363px;
+    height: 74px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .donate .amount {
+    width: 282px;
+    border-radius: 5px;
+    border: none;
+    background-color: #20113d;
+    text-align: center;
+    color: #fff;
+    font-family: 'mont-sb';
+    font-size: 18px;
+  }
+
+  .amount::placeholder {
+    color: #fff;
+  }
+
+  .donate .amount-sub {
+    width: 81px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f58021;
+    background-image: url(../assets/images/arr.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition-duration: 0.5s;
+  }
+
+  .donate .amount-sub:hover {
+    cursor: pointer;
+    background-color: #D26004;
+  }
+}
+
+@media (max-width: 639px) {
+
+  body {
+    margin: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 110px;
+    background-color: #f58021;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header .logo {
+    width: 96px;
+    margin: 30px 146px 30px calc((100% - 320px) / 2 + 20px);
+    background-image: url(../assets/images/logo.png);
+  }
+  
+  .navigation {
+    width: 556px;
+    height: 27px;
+    margin: 42px 65px 41px 0px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'mont-sb';
+    font-size: 18px;
+    line-height: 27px;
+    transition-duration: 0.5s;
+  }
+  
+  .socials {
+    width: 180px;
+    margin: 35px calc((100% - 1920px) / 2 + 260px) 33px 0px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .socials a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+  }
+  
+  .socials .first {
+    background-color: #f00;
+    background-image: url("../assets/images/yt.png");
+  }
+  
+  .socials .first:hover {
+    background-color: rgb(131, 8, 8);
+  }
+  
+  .socials .second {
+    background-color: #c13584;
+    background-image: url("../assets/images/inst.png");
+  }
+  
+  .socials .second:hover {
+    background-color: #861f59;
+  }
+  
+  .socials .third {
+    background-color: #3b5998;
+    background-image: url("../assets/images/fb.png");
+  }
+  
+  .socials .third:hover {
+    background-color: #233968;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    right: calc((100% - 320px) / 2);
+    top: 110px;
+    width: 233px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #20113D;
+  }
+
+  main .navigation {
+    margin: 0;
+  }
+
+  .navigation a {
+    color: #fff;
+    margin: 20px 0 20px 0;
+  }
+  
+  footer {
+    width: 100%;
+    height: 710px;
+    background-color: #20113d;
+  }
+
+  .first-line {
+    width: 300px;
+    height: 489px;
+    margin: 0 calc((100% - 320px) / 2 + 10px) 0 calc((100% - 320px) / 2 + 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-line .logos {
+    width: 320px;
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logos .logo {
+    width: 96px;
+    height: 50px;
+    margin: 0 0 30px 0;
+    background-image: url("../assets/images/logo-white.png");
+  }
+
+  .logos .first {
+    width: 50px;
+    margin: 0 0 29px 0;
+  }
+
+  .logos .second {
+    width: 138px;
+    margin: 0 0 29px 0;
+  }
+
+  .footer-nav {
+    width: 300px;
+    height: 24px;
+    margin: 0px 0px 29px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'mont-sb';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    transition-duration: 0.5s;
+  }
+
+  .footer-nav a:hover {
+    color: #05786e;
+  }
+
+  .donate-footer {
+    width: 300px;
+    height: 45px;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .donate-footer button {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #20113d;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none; 
+    font-family: 'mont-sb';
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+  
+  .donate-footer button:hover {
+    cursor: pointer;
+    background-color: #f58021;
+    border-color: #f58021;
+  }
+
+  .donate-footer .btn-text {
+    margin: 0 27.36px 0 27.36px;
+    display: flex;
+    text-transform: none;
+    justify-content: space-between;
+  }
+
+  .footer-socials {
+    display: none;
+  }
+
+  .footer-socials-2 {
+    width: 220px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-socials-2 a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+  }
+  
+  .footer-socials-2 .first {
+    background-color: #f00;
+    background-image: url("../assets/images/yt.png");
+  }
+  
+  .footer-socials-2 .first:hover {
+    background-color: rgb(131, 8, 8);
+  }
+  
+  .footer-socials-2 .second {
+    background-color: #c13584;
+    background-image: url("../assets/images/inst.png");
+  }
+  
+  .footer-socials-2 .second:hover {
+    background-color: #861f59;
+  }
+  
+  .footer-socials-2 .third {
+    background-color: #3b5998;
+    background-image: url("../assets/images/fb.png");
+  }
+  
+  .footer-socials-2 .third:hover {
+    background-color: #233968;
+  }
+
+  .footer-line {
+    width: 320px;
+    height: 1px;
+    margin: 0 calc((100% - 320px) / 2) 0 calc((100% - 320px) / 2);
+    background-color: #fff;
+  }
+
+  .second-line {
+    width: 300px;
+    height: 132px;
+    margin: 30px calc((100% - 320px) / 2 + 10px) 0 calc((100% - 320px) / 2 + 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .copyright {
+    width: 124px;
+    height: 141px;
+    padding: 0px 0px 0px 0px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .donation-panel {
+    height: 446px;
+    padding: 0px calc((100% - 320px) / 2 + 10px) 0px calc((100% - 320px) / 2 + 10px);
+    background-color: #20113d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-donation .big {
+    width: 300px;
+    margin: 30px 10px 30px 10px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'mont-md';
+    line-height: 31.69px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .text-donation .small {
+    width: 300px;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 10px 0 10px;
+    color: #fff;
+    font-family: 'mont-reg';
+    text-align: center;
+  }
+
+  .third .donate {
+    width: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .donate .text {
+    margin: 30px 0 10px 0;
+    height: 34px;
+    font-family: 'mont-md';
+    font-size: 26px;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .donate .dollars {
+    width: 300px;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .donate .amount {
+    width: 240px;
+    border-radius: 5px;
+    border: none;
+    background-color: #20113d;
+    text-align: center;
+    color: #fff;
+    font-family: 'mont-sb';
+    font-size: 16px;
+  }
+
+  .amount::placeholder {
+    color: #fff;
+  }
+
+  .donate .amount-sub {
+    width: 60px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f58021;
+    background-image: url(../assets/images/arr.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition-duration: 0.5s;
+  }
+
+  .donate .amount-sub:hover {
+    cursor: pointer;
+    background-color: #D26004;
+  }
+}
+
+.none {
+  display: none;
+}

@@ -1,0 +1,555 @@
+.navigation .first:hover {
+  color: #05786e;
+}
+
+.navigation .second:hover{
+  color: #05786e;
+}
+
+.navigation .third:hover{
+  color: #05786e;
+}
+
+.navigation .fourth{
+  color: #00a092;
+  cursor: default;
+}
+
+.navigation .fifth:hover{
+  color: #05786e;
+}
+
+@media (max-width: 8000px) {
+
+  main {
+    width: 100%;
+  }
+  
+  .main-block {
+    height: 1847px;
+    width: 1400px;
+    padding: 0px calc((100% - 1920px) / 2 + 260px) 0 calc((100% - 1920px) / 2 + 260px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-block img {
+    width: 1400px;
+    height: 815px;
+    margin: 0 0 150px 0;
+  }
+
+  .central-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .central-block .text {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text .big {
+    width: 405px;
+    height: 66px;
+    margin: 0 315px 50px 0px;
+    color: #00a092;
+    text-transform: uppercase;
+    font-family: 'mont-sb';
+    font-size: 54px;
+    text-align: left;
+  }
+
+  .text .small {
+    width: 545px;
+    height: 162px;
+    margin: 0 175px 0px 0px;
+    color: #000;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-form {
+    width: 680px;
+    height: 618px;
+  }
+
+  .main-form p {
+    margin: 0 0 10px 0;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-form input {
+    width: 660px;
+    height: 27px;
+    margin: 0 0 30px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 17px 0px 16px 20px;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-form textarea.four {
+    width: 660px;
+    height: 167px;
+    resize: none;
+    margin: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 17px 0px 16px 20px;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-block button {
+    width: 359px;
+    height: 74px;
+    margin: 67px 321px 0px 720px;
+    padding: 0;
+    background-color: #00A092;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+    font-family: 'mont-sb';
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+
+  .main-block button img {
+    width: 24px;
+    height: 22px;
+  }
+  
+  .main-block button:hover {
+    cursor: pointer;
+    background-color: #05786e;
+  }
+
+  .main-block .main-btn-text {
+    margin: 26px 87.86px 0 87.86px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 1919px) {
+
+  main {
+    width: 100%;
+  }
+  
+  .main-block {
+    height: 1961px;
+    width: 1200px;
+    padding: 0px calc((100% - 1200px) / 2) 0 calc((100% - 1200px) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-block .main-img {
+    width: 1200px;
+    height: 815px;
+    margin: 0 0 50px 0;
+    content: url("../assets/images/touch1200.png");
+  }
+
+  .central-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .central-block .text {
+    width: 835px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text .big {
+    width: 405px;
+    height: 66px;
+    margin: 0 10px 30px 10px;
+    color: #00a092;
+    text-transform: uppercase;
+    font-family: 'mont-sb';
+    font-size: 54px;
+    text-align: center;
+  }
+
+  .text .small {
+    width: 835px;
+    height: 108px;
+    margin: 0 5px 50px 5px;
+    color: #000;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .main-form {
+    width: 740px;
+    height: 618px;
+    margin-right: calc((100% - 1200px)/2 + 250px);
+  }
+
+  .main-form p {
+    margin: 0 0 10px 0;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-form input {
+    width: 708px;
+    height: 25px;
+    margin: 0 0 30px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 17px 10px 16px 20px;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-form textarea.four {
+    width: 708px;
+    height: 165px;
+    resize: none;
+    margin: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 17px 10px 16px 20px;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-block button {
+    width: 360px;
+    height: 74px;
+    margin: 50px calc((100% - 1200px)/2 + 445px) 0px 0px;
+    padding: 0;
+    background-color: #00A092;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+    font-family: 'mont-sb';
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+
+  .main-block button img {
+    width: 24px;
+    height: 22px;
+  }
+  
+  .main-block button:hover {
+    cursor: pointer;
+    background-color: #05786e;
+  }
+
+  .main-block .main-btn-text {
+    margin: 26px 87.86px 0 87.86px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 1199px) {
+
+  main {
+    width: 100%;
+  }
+  
+  .main-block {
+    height: 1620px;
+    width: 640px;
+    padding: 0px calc((100% - 640px) / 2) 0 calc((100% - 640px) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-block .main-img {
+    width: 640px;
+    height: 434px;
+    margin: 0 0 50px 0;
+    content: url("../assets/images/touch640.png");
+  }
+
+  .central-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .central-block .text {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text .big {
+    width: 405px;
+    height: 52px;
+    margin: 0 10px 30px 10px;
+    color: #00a092;
+    text-transform: uppercase;
+    font-family: 'mont-sb';
+    font-size: 54px;
+    text-align: center;
+  }
+
+  .text .small {
+    width: 600px;
+    height: 162px;
+    margin: 0 10px 50px 10px;
+    color: #000;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .main-form {
+    width: 600px;
+    height: 618px;
+    margin: 0px 10px 0px 10px;  
+  }
+
+  .main-form p {
+    margin: 0 0 10px 0;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-form input {
+    width: 570px;
+    height: 25px;
+    margin: 0 0 30px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 17px 10px 16px 20px;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-form textarea.four {
+    width: 570px;
+    height: 165px;
+    resize: none;
+    margin: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 17px 10px 16px 20px;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-block button {
+    width: 290px;
+    height: 74px;
+    margin: 50px 10px 0px 10px;
+    padding: 0;
+    background-color: #00A092;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+    font-family: 'mont-sb';
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+
+  .main-block button img {
+    width: 24px;
+    height: 22px;
+  }
+  
+  .main-block button:hover {
+    cursor: pointer;
+    background-color: #05786e;
+  }
+
+  .main-block .main-btn-text {
+    margin: 26px 26.36px 0 53.36px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 639px) {
+
+  main {
+    width: 100%;
+  }
+  
+  .main-block {
+    height: 1390px;
+    width: 320px;
+    padding: 0px calc((100% - 320px) / 2) 0 calc((100% - 320px) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-block .main-img {
+    width: 320px;
+    height: 217px;
+    margin: 0 0 30px 0;
+    content: url("../assets/images/touch320.png");
+  }
+
+  .central-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .central-block .text {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text .big {
+    width: 300px;
+    height: 26px;
+    margin: 0 10px 30px 10px;
+    color: #00a092;
+    text-transform: uppercase;
+    font-family: 'mont-md';
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .text .small {
+    width: 300px;
+    height: 309px;
+    margin: 0 10px 50px 10px;
+    color: #000;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .main-form {
+    width: 300px;
+    height: 568px;
+    margin: 0px 10px 0px 10px;  
+  }
+
+  .main-form p {
+    margin: 0 0 5px 0;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-form input {
+    width: 268px;
+    height: 15px;
+    margin: 0 0 30px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 17px 10px 16px 20px;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-form textarea.four {
+    width: 268px;
+    height: 165px;
+    resize: none;
+    margin: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 17px 10px 16px 20px;
+    font-family: 'mont-reg';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .main-block button {
+    width: 300px;
+    height: 50px;
+    margin: 30px 10px 0px 10px;
+    padding: 0;
+    background-color: #00A092;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+    font-family: 'mont-sb';
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+
+  .main-block button img {
+    width: 24px;
+    height: 22px;
+  }
+  
+  .main-block button:hover {
+    cursor: pointer;
+    background-color: #05786e;
+  }
+
+  .main-block .main-btn-text {
+    margin: 14px 58.36px 0 58.36px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}

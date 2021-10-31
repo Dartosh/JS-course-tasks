@@ -1,0 +1,594 @@
+.navigation .first:hover {
+  color: #05786e;
+}
+
+.navigation .second{
+  color: #00a092;
+  cursor: default;
+}
+
+.navigation .third:hover{
+  color: #05786e;
+}
+
+.navigation .fourth:hover{
+  color: #05786e;
+}
+
+.navigation .fifth:hover{
+  color: #05786e;
+}
+
+@media (max-width: 8000px) {
+
+  main {
+    width: 100%;
+  }
+  
+  .main-block {
+    height: 1303px;
+    width: 1400px;
+    padding: 40px calc((100% - 1920px) / 2 + 260px) 0 calc((100% - 1920px) / 2 + 260px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-block h2 {
+    width: 601px;
+    height: 131px;
+    margin: 0 0 70px 0;
+    text-transform: uppercase;
+    font-family: 'mont-sb';
+    font-size: 54px;
+    color: #20113d;
+    text-align: center;
+  }
+
+  .main-block .map {
+    position: relative;
+    width: 1406px;
+    height: 912px;
+    background-image: url(../assets/images/map1920.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .map .map-el {
+    width: 100px;
+    height: 144px;
+    text-align: center;
+    cursor: help;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+    background: url(../assets/images/map-el.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition-duration: 0.5s;
+  }
+
+  .map .map-el:hover {
+    background: url(../assets/images/map-el-hover.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+  }
+
+  .map-el img {
+    margin-top: 32px;
+  }
+
+  .one {
+    position: absolute;
+    left: 20.77%;
+    top: 44.88%;
+  }
+
+  .two {
+    position: absolute;
+    left: 11.60%;
+    top: 44.58%;
+  }
+
+  .three {
+    position: absolute;
+    left: 49.17%;
+    top: 51.65%;
+  }
+
+  .four {
+    position: absolute;
+    left: 41.12%;
+    top: 49.33%;
+  }
+
+  .five {
+    position: absolute;
+    left: 55.93%;
+    top: 66.54%;
+  }
+
+  .six {
+    position: absolute;
+    left: 68.71%;
+    top: 38.36%;
+  }
+
+  .seven {
+    position: absolute;
+    left: 71.99%;
+    top: 54.93%;
+  }
+
+  .eight {
+    position: absolute;
+    left: 79.81%;
+    top: 68.97%;
+  }
+
+  .map-el::after {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px 8px 8px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+    margin-top: -24px;
+    opacity: 0; /* Наш элемент прозрачен... */
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden; /* ...и скрыт. */
+        
+    transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+  }
+      
+  .map-el:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+  }
+}
+
+@media (max-width: 1919px) {
+
+  main {
+    width: 100%;
+  }
+  
+  .main-block {
+    height: 1055px;
+    width: 1200px;
+    padding: 30px calc((100% - 1200px) / 2) 0 calc((100% - 1200px) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-block h2 {
+    width: 595px;
+    height: 119px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    font-family: 'mont-sb';
+    font-size: 54px;
+    color: #20113d;
+    text-align: center;
+  }
+
+  .main-block .map {
+    position: relative;
+    width: 1200px;
+    height: 777px;
+    background-image: url(../assets/images/map1200.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .map .map-el {
+    width: 100px;
+    height: 144px;
+    text-align: center;
+    cursor: help;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+    background: url(../assets/images/map-el.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition-duration: 0.5s;
+  }
+
+  .map .map-el:hover {
+    background: url(../assets/images/map-el-hover.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+  }
+
+  .map-el img {
+    margin-top: 32px;
+  }
+
+  .one {
+    position: absolute;
+    left: 20.07%;
+    top: 41.88%;
+  }
+
+  .two {
+    position: absolute;
+    left: 10.60%;
+    top: 40.18%;
+  }
+
+  .three {
+    position: absolute;
+    left: 48.17%;
+    top: 49.25%;
+  }
+
+  .four {
+    position: absolute;
+    left: 40.12%;
+    top: 46.33%;
+  }
+
+  .five {
+    position: absolute;
+    left: 55.73%;
+    top: 62.54%;
+  }
+
+  .six {
+    position: absolute;
+    left: 70.71%;
+    top: 32.36%;
+  }
+
+  .seven {
+    position: absolute;
+    left: 71.49%;
+    top: 54.93%;
+  }
+
+  .eight {
+    position: absolute;
+    left: 80.81%;
+    top: 64.97%;
+  }
+
+  .map-el::after {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px 8px 8px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+    margin-top: -24px;
+    opacity: 0; /* Наш элемент прозрачен... */
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden; /* ...и скрыт. */
+        
+    transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+  }
+      
+  .map-el:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+  }
+}
+
+@media (max-width: 1199px) {
+
+  main {
+    width: 100%;
+  }
+  
+  .main-block {
+    height: 716px;
+    width: 640px;
+    padding: 30px calc((100% - 640px) / 2) 0 calc((100% - 640px) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-block h2 {
+    width: 600px;
+    height: 121px;
+    margin: 0 0 50px 0;
+    text-transform: uppercase;
+    font-family: 'mont-sb';
+    font-size: 42px;
+    color: #20113d;
+    text-align: center;
+  }
+
+  .main-block .map {
+    position: relative;
+    width: 640px;
+    height: 415px;
+    background-image: url(../assets/images/map640.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .map .map-el {
+    width: 42px;
+    height: 60px;
+    text-align: center;
+    cursor: help;
+    filter: drop-shadow(0px 2.10553px 15.7915px rgba(245, 128, 33, 0.7));
+    background: url(../assets/images/map-el-640.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition-duration: 0.5s;
+  }
+
+  .map .map-el:hover {
+    background: url(../assets/images/map-el-hover-640.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    filter: drop-shadow(0px 2.10553px 15.7915px rgba(245, 128, 33, 0.7));
+  }
+
+  .map-el img {
+    margin-top: 12px;
+  }
+
+  .one img {
+    content: url("../assets/images/map/Alligator640.png");
+  }
+
+  .two img {
+    content: url("../assets/images/map/Eagle640.png");
+  }
+
+  .three img {
+    content: url("../assets/images/map/Gorilla640.png");
+  }
+
+  .four img {
+    content: url("../assets/images/map/Lion640.png");
+  }
+
+  .five img {
+    content: url("../assets/images/map/Lemur640.png");
+  }
+
+  .six img {
+    content: url("../assets/images/map/Panda640.png");
+  }
+
+  .seven img {
+    content: url("../assets/images/map/tiger640.png");
+  }
+
+  .eight img {
+    content: url("../assets/images/map/Coala640.png");
+  }
+
+  .one {
+    position: absolute;
+    left: 20.77%;
+    top: 44.88%;
+  }
+
+  .two {
+    position: absolute;
+    left: 11.50%;
+    top: 44.18%;
+  }
+
+  .three {
+    position: absolute;
+    left: 49.17%;
+    top: 51.75%;
+  }
+
+  .four {
+    position: absolute;
+    left: 41.12%;
+    top: 49.33%;
+  }
+
+  .five {
+    position: absolute;
+    left: 56.73%;
+    top: 65.54%;
+  }
+
+  .six {
+    position: absolute;
+    left: 71.71%;
+    top: 35.36%;
+  }
+
+  .seven {
+    position: absolute;
+    left: 71.99%;
+    top: 57.83%;
+  }
+
+  .eight {
+    position: absolute;
+    left: 80.81%;
+    top: 68.97%;
+  }
+
+  .map-el::after {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px 8px 8px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+    margin-top: -24px;
+    opacity: 0; /* Наш элемент прозрачен... */
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden; /* ...и скрыт. */
+    font-size: 12px;
+        
+    transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+  }
+      
+  .map-el:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+  }
+}
+
+@media (max-width: 639px) {
+
+  main {
+    width: 100%;
+  }
+  
+  .main-block {
+    height: 395px;
+    width: 320px;
+    padding: 20px calc((100% - 320px) / 2) 0 calc((100% - 320px) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-block h2 {
+    width: 301px;
+    height: 58px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    font-family: 'mont-sb';
+    font-size: 26px;
+    color: #20113d;
+    text-align: center;
+  }
+
+  .main-block .map {
+    position: relative;
+    width: 320px;
+    height: 207px;
+    background-image: url(../assets/images/map320.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .map .map-el {
+    width: 35px;
+    height: 50px;
+    text-align: center;
+    cursor: help;
+    filter: drop-shadow(0px 1.28114px 20px rgba(245, 128, 33, 0.5));
+    background: url(../assets/images/map-el-320.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition-duration: 0.5s;
+  }
+
+  .map .map-el:hover {
+    background: url(../assets/images/map-el-hover-320.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    filter: drop-shadow(0px 1.28114px 20px rgba(245, 128, 33, 0.5));
+  }
+
+  .map-el img {
+    margin-top: 10px;
+  }
+
+  .one img {
+    content: url("../assets/images/map/Alligator320.png");
+  }
+
+  .two img {
+    content: url("../assets/images/map/Eagle320.png");
+  }
+
+  .three img {
+    content: url("../assets/images/map/Gorilla320.png");
+  }
+
+  .four img {
+    content: url("../assets/images/map/Lion320.png");
+  }
+
+  .five img {
+    content: url("../assets/images/map/Lemur320.png");
+  }
+
+  .six img {
+    content: url("../assets/images/map/Panda320.png");
+  }
+
+  .seven img {
+    content: url("../assets/images/map/tiger320.png");
+  }
+
+  .eight img {
+    content: url("../assets/images/map/Coala320.png");
+  }
+
+  .one {
+    position: absolute;
+    left: 18.77%;
+    top: 37.08%;
+  }
+
+  .two {
+    position: absolute;
+    left: 9.60%;
+    top: 36.18%;
+  }
+
+  .three {
+    position: absolute;
+    left: 47.17%;
+    top: 47.75%;
+  }
+
+  .four {
+    position: absolute;
+    left: 39.12%;
+    top: 40.33%;
+  }
+
+  .five {
+    position: absolute;
+    left: 54.73%;
+    top: 57.54%;
+  }
+
+  .six {
+    position: absolute;
+    left: 69.71%;
+    top: 27.36%;
+  }
+
+  .seven {
+    position: absolute;
+    left: 72.99%;
+    top: 49.83%;
+  }
+
+  .eight {
+    position: absolute;
+    left: 79.81%;
+    top: 59.97%;
+  }
+
+  .map-el::after {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px 8px 8px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+    margin-top: -24px;
+    opacity: 0; /* Наш элемент прозрачен... */
+    padding: 3px 3px;
+    position: absolute;
+    visibility: hidden; /* ...и скрыт. */
+    font-size: 6px;
+        
+    transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+  }
+      
+  .map-el:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+  }
+}
